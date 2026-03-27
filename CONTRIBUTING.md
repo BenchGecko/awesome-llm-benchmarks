@@ -1,52 +1,47 @@
 # Contributing to Awesome LLM Benchmarks
 
-Thank you for your interest in contributing! This list is maintained by [BenchGecko](https://benchgecko.ai) and the community.
+Thank you for helping make this the most comprehensive LLM benchmark reference on the internet.
 
-## Guidelines
+## How to Contribute
 
-### Adding a Benchmark
+### Adding a New Benchmark
 
-To add a benchmark, please ensure it meets the following criteria:
-
-1. **Publicly available** - The benchmark must be publicly accessible (paper, dataset, or leaderboard).
-2. **Actively used** - The benchmark should be used by at least a few research groups or model providers.
-3. **Well-documented** - There should be a paper, technical report, or detailed documentation describing the methodology.
-4. **Relevant** - The benchmark should evaluate large language models or closely related systems (multimodal models, agents, etc.).
-
-### How to Submit
-
-1. Fork this repository.
-2. Add your benchmark to the appropriate section in `README.md`.
-3. Follow the existing format:
+1. Fork this repository
+2. Add the benchmark to the appropriate category section in README.md
+3. Follow this format:
    ```
-   - **Name** - Brief description. [Paper](url) | [Dataset](url)
+   - **Name** (Full Name If Abbreviated) - One-line description. Dataset size if applicable. [Paper](url) | [Dataset](url) | [Website](url)
    ```
-4. Keep descriptions concise (one line preferred).
-5. Include links to the paper (arXiv preferred) and dataset (HuggingFace preferred) when available.
-6. Submit a pull request with a clear title (e.g., "Add BenchmarkName to Code Generation section").
+4. Submit a pull request
 
-### Updating Scores
+### Requirements for New Benchmarks
 
-If you notice outdated or incorrect scores in the model comparison table:
+- Must be a published, peer-reviewed benchmark OR widely adopted in the community
+- Must have been used to evaluate at least 3 major LLMs
+- Include at least one link (paper, dataset, or website)
+- Description should be factual and concise (1-2 sentences max)
 
-1. Provide a source for the corrected score (official paper, blog post, or leaderboard).
-2. Note that scores can vary by evaluation methodology -- include context if the difference is due to different eval settings.
+### Updating the Model Comparison Table
 
-### Suggesting New Sections
+- Only add scores from official model reports or well-known independent evaluations
+- Use the original evaluation methodology (don't mix 0-shot and 5-shot scores)
+- Cite the source in your PR description
 
-If you think a new category of benchmarks deserves its own section, open an issue first to discuss.
+### Fixing Errors
 
-## Quality Standards
+Found a wrong link or incorrect description? Please open an issue or submit a PR. We appreciate accuracy.
 
-- No promotional or paid content.
-- Benchmarks must be peer-reviewed or from established research institutions/companies.
-- Self-nominations are fine if the benchmark meets all criteria above.
+## What We Don't Accept
+
+- Benchmark tools or libraries (this list is for evaluation benchmarks/datasets)
+- Promotional content or paid placements
+- Benchmarks with fewer than 100 test examples
+- Duplicate entries
 
 ## Code of Conduct
 
-Be respectful and constructive. We follow the [Contributor Covenant](https://www.contributor-covenant.org/version/2/1/code_of_conduct/).
+Be respectful, constructive, and factual. This is a reference resource for the entire AI community.
 
-## Questions?
+---
 
-- Open a GitHub issue for questions about this list.
-- Visit [BenchGecko](https://benchgecko.ai) for model rankings and benchmark analysis.
+Maintained by [BenchGecko](https://benchgecko.ai) — The Data Layer of the AI Economy

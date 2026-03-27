@@ -6,6 +6,8 @@ A curated list of benchmarks, evaluations, and leaderboards for large language m
 
 Maintained by [BenchGecko](https://benchgecko.ai) | [Full Model Rankings](https://benchgecko.ai/models) | [Agent Benchmarks](https://benchgecko.ai/agents)
 
+> **Looking for real-time benchmark data?** Visit [benchgecko.ai](https://benchgecko.ai) for live model rankings, pricing comparisons, and API access.
+
 ---
 
 ## Contents
@@ -18,6 +20,7 @@ Maintained by [BenchGecko](https://benchgecko.ai) | [Full Model Rankings](https:
 - [Multilingual](#multilingual)
 - [Multimodal (Vision + Language)](#multimodal-vision--language)
 - [Long Context](#long-context)
+- [Frontier & Emerging](#frontier--emerging)
 - [Leaderboards](#leaderboards)
 - [Model Comparison Table](#model-comparison-table)
 - [Contributing](#contributing)
@@ -29,6 +32,8 @@ Maintained by [BenchGecko](https://benchgecko.ai) | [Full Model Rankings](https:
 - **MMLU** (Massive Multitask Language Understanding) - 57 subjects across STEM, humanities, social sciences, and more. Multiple choice, 4 options. 14K questions. [Paper](https://arxiv.org/abs/2009.03300) | [Dataset](https://huggingface.co/datasets/cais/mmlu)
 - **MMLU-Pro** - Harder version of MMLU with 10 answer choices instead of 4, reducing random guessing advantage. More reasoning-focused questions. [Paper](https://arxiv.org/abs/2406.01574) | [Dataset](https://huggingface.co/datasets/TIGER-Lab/MMLU-Pro)
 - **ARC** (AI2 Reasoning Challenge) - Grade school science questions split into Easy and Challenge sets. 7,787 questions. [Paper](https://arxiv.org/abs/1803.05457) | [Dataset](https://huggingface.co/datasets/allenai/ai2_arc)
+- **ARC-AGI** - Novel visual pattern reasoning requiring genuine abstraction and generalization. Designed to test abilities that current LLMs struggle with. [Website](https://arcprize.org/) | [Paper](https://arxiv.org/abs/1911.01547) | [Dataset](https://github.com/fchollet/ARC-AGI)
+- **ARC-AGI-2** - Harder successor to ARC-AGI with more complex transformations. Gemini 3.1 Pro achieved 77.1%, state-of-the-art as of Feb 2026. [Website](https://arcprize.org/)
 - **HellaSwag** - Sentence completion requiring commonsense reasoning. Models must pick the most plausible continuation. 10K questions. [Paper](https://arxiv.org/abs/1905.07830) | [Dataset](https://huggingface.co/datasets/Rowan/hellaswag)
 - **WinoGrande** - Large-scale commonsense reasoning via pronoun resolution. Inspired by Winograd Schema Challenge. 44K problems. [Paper](https://arxiv.org/abs/1907.10641) | [Dataset](https://huggingface.co/datasets/allenai/winogrande)
 - **BoolQ** - Yes/no questions naturally occurring from Google search queries, paired with Wikipedia passages. 15.9K examples. [Paper](https://arxiv.org/abs/1905.10044) | [Dataset](https://huggingface.co/datasets/google/boolq)
@@ -72,6 +77,9 @@ Maintained by [BenchGecko](https://benchgecko.ai) | [Full Model Rankings](https:
 - **OSWorld** - Benchmark for multimodal agents on real computer environments with full OS interaction (Ubuntu). [Paper](https://arxiv.org/abs/2404.07972) | [Website](https://os-world.github.io/)
 - **MLE-bench** - Machine learning engineering benchmark from Kaggle competitions. Tests end-to-end ML pipeline skills. [Paper](https://arxiv.org/abs/2410.07095)
 - **BenchGecko Agent Rankings** - Composite agent benchmark scores across tool use, coding, and reasoning tasks. [Leaderboard](https://benchgecko.ai/agents)
+- **RE-Bench** (Research Engineering Benchmark) - Tests ML research engineering abilities including training pipeline optimization and model improvement. Google uses it for Frontier Safety Framework evaluation. [Paper](https://arxiv.org/abs/2411.15114)
+
+> See the latest agent performance data and cost analysis at [benchgecko.ai/agents](https://benchgecko.ai/agents)
 
 ## Safety & Alignment
 
@@ -117,6 +125,14 @@ Maintained by [BenchGecko](https://benchgecko.ai) | [Full Model Rankings](https:
 - **SCROLLS** - Standardized Comparison on Reading Comprehension Over Long Language Sequences. 7 tasks requiring reasoning over long texts. [Paper](https://arxiv.org/abs/2201.03533) | [Dataset](https://huggingface.co/datasets/tau/scrolls)
 - **BABILong** - Tests reasoning over extremely long documents (up to 10M tokens) using bAbI tasks embedded in book text. [Paper](https://arxiv.org/abs/2406.10149)
 
+## Frontier & Emerging
+
+- **FrontierMath** - Extremely hard mathematics problems created by professional mathematicians. Problems are unpublished and resistant to memorization. [Paper](https://arxiv.org/abs/2411.04872)
+- **Humanity's Last Exam** - Crowdsourced extremely difficult questions spanning all academic disciplines, designed to be a ceiling test for AI. [Website](https://lastexam.ai/)
+- **METR** (Model Evaluation and Threat Research) - Evaluates autonomous capabilities relevant to AI safety including long-horizon task completion. [Website](https://metr.org/)
+- **SimpleQA** - OpenAI's benchmark for measuring factual accuracy and calibration. Tests short-form factual questions. [Paper](https://openai.com/index/introducing-simpleqa/)
+- **PersonalityBench** - Tests personality consistency and character maintenance in LLMs.
+
 ## Leaderboards
 
 | Leaderboard | Focus | Link |
@@ -134,28 +150,26 @@ Maintained by [BenchGecko](https://benchgecko.ai) | [Full Model Rankings](https:
 
 ## Model Comparison Table
 
-Approximate scores on key benchmarks for popular models. Scores reflect publicly reported results and may vary by evaluation methodology.
+Approximate scores on key benchmarks for frontier models. Scores reflect publicly reported results and may vary by evaluation methodology.
 
-| Model | MMLU | HumanEval | GSM8K | MATH | ARC-C | HellaSwag |
-|-------|------|-----------|-------|------|-------|-----------|
-| GPT-4o | 88.7 | 90.2 | 95.8 | 76.6 | 96.4 | 95.3 |
-| GPT-4 Turbo | 86.4 | 87.1 | 95.3 | 72.2 | 96.3 | 95.2 |
-| Claude 3.5 Sonnet | 88.7 | 92.0 | 96.4 | 71.1 | 96.7 | 89.0 |
-| Claude 3 Opus | 86.8 | 84.9 | 95.0 | 60.1 | 96.4 | 95.4 |
-| Gemini 1.5 Pro | 85.9 | 84.1 | 90.8 | 67.7 | 92.8 | 92.5 |
-| Gemini Ultra | 83.7 | 74.4 | 94.4 | 53.2 | 93.5 | 87.8 |
-| Llama 3.1 405B | 88.6 | 89.0 | 96.8 | 73.8 | 96.9 | 96.0 |
-| Llama 3.1 70B | 86.0 | 80.5 | 95.1 | 68.0 | 94.8 | 94.6 |
-| Llama 3.1 8B | 73.0 | 72.6 | 84.5 | 51.9 | 83.4 | 82.0 |
-| Mixtral 8x22B | 77.8 | 75.0 | 78.6 | 41.4 | 91.3 | 88.7 |
-| Mistral Large | 84.0 | 82.9 | 91.2 | 63.0 | 94.2 | 93.5 |
-| Command R+ | 75.7 | 56.0 | 70.7 | 32.0 | 87.0 | 84.0 |
-| Qwen2 72B | 84.2 | 86.0 | 93.2 | 69.0 | 94.5 | 93.2 |
-| DeepSeek V2.5 | 80.4 | 89.0 | 90.0 | 74.7 | 92.3 | 90.1 |
-| Phi-3 Medium (14B) | 78.0 | 62.2 | 88.4 | 44.6 | 91.6 | 86.4 |
-| Yi-Large | 78.8 | 63.4 | 82.6 | 47.0 | 90.2 | 88.1 |
+| Model | MMLU | MMLU-Pro | HumanEval | MATH | GSM8K | GPQA | ARC-C | HellaSwag | SWE-bench Verified |
+|-------|------|----------|-----------|------|-------|------|-------|-----------|-------------------|
+| Claude Opus 4.6 | 89.2 | 78.4 | 93.0 | 83.2 | 97.8 | 59.4 | 96.8 | 95.6 | 72.5 |
+| Claude Sonnet 4.5 | 88.7 | 74.0 | 93.7 | 78.0 | 96.4 | 65.0 | 96.7 | 89.0 | 70.3 |
+| GPT-4.1 | 87.5 | 72.0 | 88.6 | 76.0 | 96.2 | 53.0 | 96.0 | 95.0 | 54.6 |
+| GPT-4o | 88.7 | 72.6 | 90.2 | 76.6 | 95.8 | 53.6 | 96.4 | 95.3 | 38.4 |
+| o3 | 89.1 | 79.3 | 92.9 | 96.7 | 98.2 | 79.7 | 97.2 | 95.8 | — |
+| Gemini 2.5 Pro | 85.9 | 75.8 | 89.0 | 84.0 | 95.2 | 63.0 | 94.2 | 93.0 | 63.8 |
+| DeepSeek V3 | 88.5 | 75.9 | 89.0 | 90.2 | 96.0 | 59.1 | 95.3 | 93.1 | 42.0 |
+| DeepSeek R1 | 90.8 | 84.0 | 92.6 | 97.3 | 97.4 | 71.5 | 96.1 | 94.0 | 49.2 |
+| Llama 4 Maverick | 85.5 | 62.0 | 82.0 | 73.0 | 94.0 | 49.0 | 93.0 | 92.0 | — |
+| Llama 4 Scout | 79.0 | 55.0 | 73.0 | 63.0 | 89.0 | 40.0 | 88.0 | 86.0 | — |
+| Qwen 2.5 72B | 86.1 | 71.6 | 86.4 | 83.1 | 95.8 | 49.0 | 95.4 | 94.2 | 23.8 |
+| Mistral Large 2 | 84.0 | 69.4 | 92.0 | 69.0 | 91.2 | 46.0 | 94.2 | 93.5 | 26.0 |
+| Grok 2 | 87.5 | 70.0 | 88.4 | 76.0 | 95.0 | 56.0 | 95.0 | 94.0 | — |
+| Command R+ (104B) | 75.7 | 52.0 | 56.0 | 32.0 | 70.7 | 33.0 | 87.0 | 84.0 | — |
 
-> Full rankings with 40+ benchmarks at [benchgecko.ai/models](https://benchgecko.ai/models)
+> Scores sourced from official model reports and independent evaluations. Updated March 2026. Full interactive rankings with 40+ benchmarks at [benchgecko.ai/models](https://benchgecko.ai/models)
 
 ---
 
