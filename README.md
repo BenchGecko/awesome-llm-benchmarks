@@ -51,6 +51,7 @@ Maintained by [BenchGecko](https://benchgecko.ai) | [Full Model Rankings](https:
 - **MGSM** (Multilingual Grade School Math) - GSM8K translated into 10 typologically diverse languages. 250 problems per language. [Paper](https://arxiv.org/abs/2210.03057) | [Dataset](https://huggingface.co/datasets/juletxara/mgsm)
 - **Minerva Math** - Google's math evaluation suite covering STEM problem solving, used to evaluate the Minerva model. [Paper](https://arxiv.org/abs/2206.14858)
 - **GPQA** (Graduate-Level Google-Proof QA) - 448 expert-crafted questions in biology, physics, and chemistry that PhD holders struggle with. [Paper](https://arxiv.org/abs/2311.12022) | [Dataset](https://huggingface.co/datasets/Idavidrein/gpqa)
+- **REFUTE** (Reasoning Over Evidence) - Scientific reasoning benchmark testing evidence-grounded critique, overclaim detection, missing-evidence refusal, and calibration. 120 critique items plus 74 soundness vignettes; evaluated on 19 frontier models. [Dataset](https://huggingface.co/datasets/BGPT-OFFICIAL/refute) | [Leaderboard](https://huggingface.co/spaces/BGPT-OFFICIAL/refute-leaderboard)
 - **TheoremQA** - Theorem-driven science and math questions requiring deep domain knowledge. 800 questions across 350+ theorems. [Paper](https://arxiv.org/abs/2305.12524)
 
 ## Code Generation
