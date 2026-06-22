@@ -42,6 +42,7 @@ Maintained by [BenchGecko](https://benchgecko.ai) | [Full Model Rankings](https:
 - **OpenBookQA** - Elementary science questions requiring both an open book of 1,326 core science facts and broad commonsense knowledge. [Paper](https://arxiv.org/abs/1809.02789) | [Dataset](https://huggingface.co/datasets/allenai/openbookqa)
 - **CommonsenseQA** - Multiple choice questions requiring prior commonsense knowledge, built using ConceptNet. [Paper](https://arxiv.org/abs/1811.00937) | [Dataset](https://huggingface.co/datasets/tau/commonsense_qa)
 - **DROP** - Discrete Reasoning Over Paragraphs. Reading comprehension requiring numerical reasoning (addition, sorting, counting). [Paper](https://arxiv.org/abs/1903.00161) | [Dataset](https://huggingface.co/datasets/ucinlp/drop)
+- **ESGenius** - First benchmark for LLM knowledge of Environmental, Social, and Governance (ESG) and sustainability. Expert-validated multiple choice with a source corpus for RAG. 1,136 questions. [Paper](https://aclanthology.org/2025.emnlp-main.739/) | [Dataset](https://huggingface.co/datasets/cy0307/ESGenius) | [Website](https://angel-ntu.github.io/ESGenius/)
 
 ## Math & Quantitative Reasoning
 
