@@ -53,6 +53,10 @@ Maintained by [BenchGecko](https://benchgecko.ai) | [Full Model Rankings](https:
 - **GPQA** (Graduate-Level Google-Proof QA) - 448 expert-crafted questions in biology, physics, and chemistry that PhD holders struggle with. [Paper](https://arxiv.org/abs/2311.12022) | [Dataset](https://huggingface.co/datasets/Idavidrein/gpqa)
 - **TheoremQA** - Theorem-driven science and math questions requiring deep domain knowledge. 800 questions across 350+ theorems. [Paper](https://arxiv.org/abs/2305.12524)
 
+## Finance & Markets
+
+- **Helium Market Resolution Benchmark** - 300 frozen prompts from live option chains (NVDA, SPY, TSLA, AAPL, QQQ, AMZN). Tests implied vol, delta, arbitrage, and rich-vs-average strike. Ground truth from the chain itself; no model has cracked 50% overall. [Dataset](https://huggingface.co/datasets/HeliumTrades/helium-market-resolution-benchmark) | [Overview](https://heliumtrades.com/benchmarks/)
+
 ## Code Generation
 
 - **HumanEval** - 164 hand-crafted Python programming problems with unit tests. Created by OpenAI. Measures functional correctness (pass@k). [Paper](https://arxiv.org/abs/2107.03374) | [Dataset](https://huggingface.co/datasets/openai/openai_humaneval)
@@ -91,6 +95,7 @@ Maintained by [BenchGecko](https://benchgecko.ai) | [Full Model Rankings](https:
 - **RealToxicityPrompts** - 100K naturally occurring prompts for measuring toxic text generation risk. [Paper](https://arxiv.org/abs/2009.11462) | [Dataset](https://huggingface.co/datasets/allenai/real-toxicity-prompts)
 - **XSTest** - Tests exaggerated safety behaviors (false refusals) alongside genuine safety. [Paper](https://arxiv.org/abs/2308.01263)
 - **IFEval** - Instruction-Following Eval. Tests whether models follow verifiable format instructions (word count, bullet points, etc.). [Paper](https://arxiv.org/abs/2311.07911)
+- **Helium Model Worldview Benchmark** - 304 paired prompts testing safety refusals, value consistency, name-swap bias, cue-swap consistency, and 50 balanced political Likert items. Change one detail and see if the answer flips. [Dataset](https://huggingface.co/datasets/HeliumTrades/helium-model-worldview-benchmark) | [Overview](https://heliumtrades.com/benchmarks/)
 
 ## Multilingual
 
