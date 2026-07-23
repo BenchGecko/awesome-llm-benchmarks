@@ -132,6 +132,7 @@ Maintained by [BenchGecko](https://benchgecko.ai) | [Full Model Rankings](https:
 - **METR** (Model Evaluation and Threat Research) - Evaluates autonomous capabilities relevant to AI safety including long-horizon task completion. [Website](https://metr.org/)
 - **SimpleQA** - OpenAI's benchmark for measuring factual accuracy and calibration. Tests short-form factual questions. [Paper](https://openai.com/index/introducing-simpleqa/)
 - **PersonalityBench** - Tests personality consistency and character maintenance in LLMs.
+- **AI Travel Index** - Travel planning benchmark covering place-name grounding (invented venues), coordinate recall, route optimization, travel time and time zone arithmetic, and itinerary feasibility. 733 test cases scored against Overture Places, Apple Maps routing, and the tz database, with no LLM judge. [Website](https://tripstitch.app/benchmarks/)
 
 ## Leaderboards
 
@@ -147,6 +148,7 @@ Maintained by [BenchGecko](https://benchgecko.ai) | [Full Model Rankings](https:
 | **SEAL Leaderboards** | Scale AI expert evaluations | [scale.com/leaderboard](https://scale.com/leaderboard) |
 | **Vellum LLM Leaderboard** | Side-by-side model comparisons | [vellum.ai/llm-leaderboard](https://www.vellum.ai/llm-leaderboard) |
 | **EvalPlus** | Code generation (HumanEval+ / MBPP+) | [evalplus.github.io](https://evalplus.github.io/leaderboard.html) |
+| **AI Travel Index** | Travel planning: place grounding, routing, itinerary feasibility | [tripstitch.app/benchmarks](https://tripstitch.app/benchmarks/) |
 
 ## Model Comparison Table
 
