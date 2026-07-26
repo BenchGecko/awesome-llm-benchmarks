@@ -70,6 +70,7 @@ Maintained by [BenchGecko](https://benchgecko.ai) | [Full Model Rankings](https:
 
 - **GAIA** - General AI Assistants benchmark. Real-world questions requiring tool use, web browsing, and multi-step reasoning. 3 difficulty levels. [Paper](https://arxiv.org/abs/2311.12983) | [Dataset](https://huggingface.co/datasets/gaia-benchmark/GAIA)
 - **WebArena** - 812 realistic web browsing tasks across 4 self-hosted web environments (Reddit, GitLab, shopping, CMS). [Paper](https://arxiv.org/abs/2307.13854) | [Website](https://webarena.dev/)
+- **ClawBench** - Live-website benchmark for browser agents with 283 V1/V2 tasks, isolated execution, and replayable five-layer traces. [Paper](https://arxiv.org/abs/2604.08523) | [Code](https://github.com/TIGER-AI-Lab/ClawBench) | [Dataset](https://huggingface.co/datasets/NAIL-Group/ClawBench) | [Website](https://claw-bench.com/)
 - **ToolBench** - Large-scale tool-use evaluation with 16,000+ real-world APIs from RapidAPI. Tests planning and API selection. [Paper](https://arxiv.org/abs/2305.16504)
 - **AgentBench** - Multi-environment agent evaluation across 8 distinct environments including OS, database, web, and game tasks. [Paper](https://arxiv.org/abs/2308.03688)
 - **TAU-bench** - Tool-Agent-User interaction benchmark evaluating agents in customer service scenarios with realistic tool use. [Paper](https://arxiv.org/abs/2406.12045)
