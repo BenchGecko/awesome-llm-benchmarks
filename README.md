@@ -114,6 +114,7 @@ Maintained by [BenchGecko](https://benchgecko.ai) | [Full Model Rankings](https:
 - **RealWorldQA** - Visual reasoning about real-world scenarios including spatial understanding and physical reasoning. [Dataset](https://huggingface.co/datasets/xai-org/RealWorldQA)
 - **OCRBench** - Comprehensive OCR evaluation across text recognition, formula recognition, and document parsing. [Paper](https://arxiv.org/abs/2305.07895)
 - **BLINK** - Multimodal benchmark focusing on core visual perception abilities that humans find easy but models struggle with. [Paper](https://arxiv.org/abs/2404.12390)
+- **StructEval** - Benchmarking LLMs' ability to generate and convert structured outputs across 18 text and renderable formats, with syntax, structural-fidelity, and visual-fidelity checks. 2,035 examples spanning 44 task types. [Paper](https://arxiv.org/abs/2505.20139) | [Code](https://github.com/TIGER-AI-Lab/StructEval) | [Website](https://tiger-ai-lab.github.io/StructEval/)
 
 ## Long Context
 
