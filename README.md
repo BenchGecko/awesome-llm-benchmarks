@@ -65,6 +65,7 @@ Maintained by [BenchGecko](https://benchgecko.ai) | [Full Model Rankings](https:
 - **MultiPL-E** - HumanEval and MBPP translated to 18 programming languages for cross-language code generation evaluation. [Paper](https://arxiv.org/abs/2208.08227) | [Dataset](https://huggingface.co/datasets/nuprl/MultiPL-E)
 - **CRUXEval** - 800 Python input/output prediction tasks testing code reasoning without generation. [Paper](https://arxiv.org/abs/2401.03065)
 - **Aider Polyglot** - Real-world code editing benchmark measuring ability to follow complex edit instructions across multiple languages. [Website](https://aider.chat/docs/leaderboards/)
+- **StructEval** - Benchmarks LLMs on generating structured/structural outputs across 18 formats (JSON, YAML, CSV, XML, TOML + renderable HTML, React, SVG, LaTeX, Mermaid, Angular, Vue, etc.); 44 tasks / 2,035 examples over generation and conversion paradigms, scored with render/syntax/keyword/VQA metrics (SOTA ~75.58). [Paper](https://arxiv.org/abs/2505.20139) | [Dataset](https://huggingface.co/datasets/TIGER-Lab/StructEval)
 
 ## Agent & Tool Use
 
