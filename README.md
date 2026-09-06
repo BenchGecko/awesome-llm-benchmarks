@@ -65,6 +65,7 @@ Maintained by [BenchGecko](https://benchgecko.ai) | [Full Model Rankings](https:
 - **MultiPL-E** - HumanEval and MBPP translated to 18 programming languages for cross-language code generation evaluation. [Paper](https://arxiv.org/abs/2208.08227) | [Dataset](https://huggingface.co/datasets/nuprl/MultiPL-E)
 - **CRUXEval** - 800 Python input/output prediction tasks testing code reasoning without generation. [Paper](https://arxiv.org/abs/2401.03065)
 - **Aider Polyglot** - Real-world code editing benchmark measuring ability to follow complex edit instructions across multiple languages. [Website](https://aider.chat/docs/leaderboards/)
+- **LLMs Robot Arena** - An arena where LLMs write robot controllers and their code competes. [Website](https://github.com/nigrosimone/llms-robot-arena)
 
 ## Agent & Tool Use
 
