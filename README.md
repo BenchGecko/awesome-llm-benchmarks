@@ -91,6 +91,7 @@ Maintained by [BenchGecko](https://benchgecko.ai) | [Full Model Rankings](https:
 - **RealToxicityPrompts** - 100K naturally occurring prompts for measuring toxic text generation risk. [Paper](https://arxiv.org/abs/2009.11462) | [Dataset](https://huggingface.co/datasets/allenai/real-toxicity-prompts)
 - **XSTest** - Tests exaggerated safety behaviors (false refusals) alongside genuine safety. [Paper](https://arxiv.org/abs/2308.01263)
 - **IFEval** - Instruction-Following Eval. Tests whether models follow verifiable format instructions (word count, bullet points, etc.). [Paper](https://arxiv.org/abs/2311.07911)
+- **MKULTRA Benchmark** - AI models alignment benchmark testing psyops, astroturfing, advanced persistent manipulation and adversarial epistemology. [Website](https://github.com/papersplx/mkubench)
 
 ## Multilingual
 
