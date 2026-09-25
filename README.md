@@ -42,6 +42,7 @@ Maintained by [BenchGecko](https://benchgecko.ai) | [Full Model Rankings](https:
 - **OpenBookQA** - Elementary science questions requiring both an open book of 1,326 core science facts and broad commonsense knowledge. [Paper](https://arxiv.org/abs/1809.02789) | [Dataset](https://huggingface.co/datasets/allenai/openbookqa)
 - **CommonsenseQA** - Multiple choice questions requiring prior commonsense knowledge, built using ConceptNet. [Paper](https://arxiv.org/abs/1811.00937) | [Dataset](https://huggingface.co/datasets/tau/commonsense_qa)
 - **DROP** - Discrete Reasoning Over Paragraphs. Reading comprehension requiring numerical reasoning (addition, sorting, counting). [Paper](https://arxiv.org/abs/1903.00161) | [Dataset](https://huggingface.co/datasets/ucinlp/drop)
+- **Decision Bench** - Bounded model decisions such as routing, tool selection, and classification: 1,071 rows across 35 tasks, with accuracy, calibration, latency, and cost reporting. Public-source data may overlap training data. [Dataset](https://github.com/atlanai/decision-bench/tree/main/data/corpus/bench-v4) | [Website](https://decisionbench.ai/)
 
 ## Math & Quantitative Reasoning
 
