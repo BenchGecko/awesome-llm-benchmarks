@@ -101,6 +101,7 @@ Maintained by [BenchGecko](https://benchgecko.ai) | [Full Model Rankings](https:
 - **XLSum** - Cross-lingual abstractive summarization covering 45 languages with 1.35M article-summary pairs from BBC. [Paper](https://arxiv.org/abs/2106.13822) | [Dataset](https://huggingface.co/datasets/csebuetnlp/xlsum)
 - **XCOPA** - Cross-lingual Choice of Plausible Alternatives in 11 typologically diverse languages. [Paper](https://arxiv.org/abs/2005.00333) | [Dataset](https://huggingface.co/datasets/cambridgeltl/xcopa)
 - **TyDi QA** - Typologically Diverse Question Answering benchmark across 11 languages with independent annotations. [Paper](https://arxiv.org/abs/2003.05002) | [Dataset](https://huggingface.co/datasets/google-research-datasets/tydiqa)
+- **BKP-500** (Bharat Knowledge Probe) - Tests India-specific conventions (lakh/crore arithmetic, state land units, crop calendars, fiscal-year conventions, government schemes) across 7 categories. 552 items, deterministically graded. Released by Sthānika AI. [Dataset](https://huggingface.co/datasets/sthanika-ai/Bharat-Knowledge-Probe-Benchmark) | [Website](https://github.com/sthanika-ai/Bharat-Knowledge-Probe-Benchmark)
 
 ## Multimodal (Vision + Language)
 
