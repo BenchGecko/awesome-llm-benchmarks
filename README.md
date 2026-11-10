@@ -146,6 +146,7 @@ Maintained by [BenchGecko](https://benchgecko.ai) | [Full Model Rankings](https:
 | **Aider Polyglot** | Code editing across languages | [aider.chat/docs/leaderboards](https://aider.chat/docs/leaderboards/) |
 | **SEAL Leaderboards** | Scale AI expert evaluations | [scale.com/leaderboard](https://scale.com/leaderboard) |
 | **Vellum LLM Leaderboard** | Side-by-side model comparisons | [vellum.ai/llm-leaderboard](https://www.vellum.ai/llm-leaderboard) |
+| **ModelBenchmark** | Independent composite rankings from 16 public benchmarks, plus prices and specs | [modelbenchmark.io](https://modelbenchmark.io) |
 | **EvalPlus** | Code generation (HumanEval+ / MBPP+) | [evalplus.github.io](https://evalplus.github.io/leaderboard.html) |
 
 ## Model Comparison Table
